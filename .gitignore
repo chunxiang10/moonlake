@@ -1,5 +1,5 @@
 public/
 resources/
-themes/MoonLake/resources/
+# themes/MoonLake/resources/
 
 .hugo_build.lock
