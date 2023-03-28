@@ -1,0 +1,28 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Params.pagetitle }}
+{{ end }}
+
+{{ define "memos" }}
+
+<h1 class="container list">自闭</h1>
+<div id="bber" class="container list"></div>
+<script type="text/javascript">
+  var bbMemos = {
+    memos : 'http://192.168.2.232:9010/',//修改为自己的 apiurl，末尾有 / 斜杠
+    limit : '',//默认每次显示 10条 
+    creatorId:'1' ,//默认为 101用户 https://demo.usememos.com/u/101
+    domId: '',//默认为 #bber
+  }
+</script>
+
+<script src="https://fastly.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/Tokinx/ViewImage/view-image.min.js"></script>
+<script src="https://fastly.jsdelivr.net/gh/Tokinx/Lately/lately.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+<script src="/bb-lmm-mk.js"></script>
+{{ end }}
+
+{{ define "footer" }}
+<!-- <script type="text/javascript" src="/theme-main-1.js"></script> -->
+{{ end }}

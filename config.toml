@@ -1,0 +1,63 @@
+# baseURL = "http://0.0.0.0"
+languageCode = "en-us"
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = true
+theme = ["MoonLake"]
+title = "凉风有信 秋月无边"
+# pagetitle = "凉风有信"
+hasCJKLanguage = true
+
+
+[Menus]
+  main = [
+      {Name = "文章", URL = "/posts/", weight = 1},
+      {Name = "Python", URL = "/categories/python", weight = 2},
+      {Name = "自闭", URL = "/zibi/", weight = 3},
+      {Name = "日历", URL = "/calendar/", weight = 4},
+      {Name = "关于", URL = "/about/", weight = 10},
+  ]
+
+
+
+#[markup.goldmark.renderer]
+#unsafe = true
+[markup.highlight]
+style = "doom-one"
+
+[params]
+author = "Jack Hu"
+info = "网络工程师"
+description = "by Jack Hu"
+pagetitle = "凉风有信"
+avatarurl = "avatar.jpg"
+hideColorSchemeToggle=true
+copyright = "Jack Hu"
+since = 2022
+paginate = 20
+
+# favicon_16 = "static/favicon.ico"
+
+dateformShort   = "1月2日"
+dateFormat = "2006-01-02 15:04"
+dateNum = "2006-01-02"
+
+# customCSS = ["css/extra.css"]
+# customJS = ["js/lazysizes.min.js"]
+
+[[params.social]]
+name = "WeChat"
+icon = "fa fa-wechat fa-2x"
+weight = 1
+url = "#"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa fa-github fa-2x"
+weight = 2
+url = "https://www.github.com/"
+
+[[params.social]]
+name = "Email"
+icon = "fa fa-envelope fa-2x"
+weight = 3
+url = "mailto:530048576@qq.com"

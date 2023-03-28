@@ -1,0 +1,59 @@
+{{ define "title" }}
+  {{ title (i18n (lower .Title)) | default .Title }} · {{ .Site.Params.pagetitle }}
+{{ end }}
+
+
+{{ define "content" }}
+  <section class="container list">
+    <h1 class="title">
+      <a class="title-link" href="{{ .Permalink | safeURL }}">
+        {{ title (i18n (lower .Title)) | default .Title }}
+      </a>
+    </h1>
+    {{ .Content }}
+
+		{{- range .Data.Pages.GroupByDate "2006" }}
+		<div class="posts-group">
+			<div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
+			<ul class="posts-list">
+				{{- range .Pages }}
+				<li class="post-item">
+					<a href="{{.Permalink}}">
+						<span class="post-title">{{.Title}}</span>
+						<span class="post-day">{{ .Date.Format .Site.Params.dateformShort }}</span>
+					</a>
+				</li>
+				{{- end }}
+			</ul>
+		</div>
+		{{- end }}
+  </section>
+{{ end }}
+
+{{ define "main" }}
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>{{ .Title }}</h1>
+		{{- if .Content }}
+		<div>
+			{{ .Content }}
+		</div>
+		{{- end }}
+
+
+		{{- range .Data.Pages.GroupByDate "2006" }}
+		<div class="posts-group">
+			<div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
+			<ul class="posts-list">
+				{{- range .Pages }}
+				<li class="post-item">
+					<a href="{{.Permalink}}">
+						<span class="post-title">{{.Title}}</span>
+						<span class="post-day">{{ .Date.Format .Site.Params.dateformShort }}</span>
+					</a>
+				</li>
+				{{- end }}
+			</ul>
+		</div>
+		{{- end }}
+	</main>
+{{ end }}
