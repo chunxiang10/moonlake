@@ -1,185 +1,4 @@
 @charset "UTF-8";
-/* Shared vars */
-:root {
-  color-scheme: light;
-  --border-radius: 5px;
-  --code-background-color: #edf0f3;
-  --code-color: var(--muted-color);
-  --code-kbd-background-color: var(--contrast);
-  --code-kbd-color: var(--contrast-inverse);
-  --code-tag-color: #b34d80;
-  --code-property-color: #3d888f;
-  --code-value-color: #998866;
-  --code-comment-color: #a2afb9;
-  --contrast: #1b2832;
-  --font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
-    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
-  --font-weight: 400;
-  --line-height: 1.5;
-  --muted-color: #444;
-  --spacing: 1rem;
-  --typography-spacing-vertical: 1.5rem; }
-
-p > code {
-  /* color: var(--code-color); */
-  /* background: var(--code-background-color); */
-  color: #022C80;
-  background: #e0e0e0;
-  border-radius: var(--border-radius);
-  padding: 6px 10px;
-  margin: 0 4px;
-  word-wrap: break-word;
-  letter-spacing: normal; }
-
-/* Code */
-/* pre,
-code,
-kbd,
-samp {
-  --font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace",
-    "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-address,
-blockquote,
-dl,
-figure,
-form,
-ol,
-p,
-pre,
-table,
-ul {
-  margin-top: 0;
-  margin-bottom: var(--typography-spacing-vertical);
-  color: var(--color);
-  font-style: normal;
-  font-weight: var(--font-weight);
-  font-size: var(--font-size);
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-size: 0.875em;
-  font-family: var(--font-family);
-}
-
-pre {
-  -ms-overflow-style: scrollbar;
-  overflow: auto;
-}
-
-pre,
-code,
-kbd {
-  border-radius: var(--border-radius);
-  background: var(--code-background-color);
-  color: var(--code-color);
-  font-weight: var(--font-weight);
-  line-height: initial;
-}
-
-code,
-kbd {
-  display: inline-block;
-  padding: 0.375rem 0.5rem;
-}
-
-pre {
-  display: block;
-  margin-bottom: var(--spacing);
-  overflow-x: auto;
-}
-pre > code {
-  display: block;
-  padding: var(--spacing);
-  background: none;
-  font-size: 14px;
-  line-height: var(--line-height);
-}
-
-code b {
-  color: var(--code-tag-color);
-  font-weight: var(--font-weight);
-}
-code i {
-  color: var(--code-property-color);
-  font-style: normal;
-}
-code u {
-  color: var(--code-value-color);
-  text-decoration: none;
-}
-code em {
-  color: var(--code-comment-color);
-  font-style: normal;
-}
-
-kbd {
-  background-color: var(--code-kbd-background-color);
-  color: var(--code-kbd-color);
-  vertical-align: baseline;
-}
-*/
-/* Spacing */
-.content {
-  margin-top: 0; }
-
-.content article header {
-  margin-top: 2rem; }
-
-/* Picture captions */
-.wp-caption {
-  margin-bottom: 10px; }
-
-.wp-caption-text {
-  font-size: 14px;
-  font-style: italic; }
-
-.wp-caption img {
-  border-radius: 10px;
-  max-width: 100%; }
-
-.posts-group {
-  display: flex;
-  margin-bottom: 1.9em;
-  line-height: normal; }
-
-.posts-group .post-year {
-  padding-top: 6px;
-  margin-right: 1.8em;
-  font-size: 1.6em;
-  opacity: .6; }
-
-.posts-group .post-year:hover {
-  text-decoration: underline;
-  cursor: pointer; }
-
-.posts-group .posts-list {
-  flex-grow: 1;
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-.posts-group .post-item {
-  border-bottom: 1px #7d828a dashed; }
-
-.posts-group .post-item a {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 8px 0 0px;
-  color: #000; }
-
-.posts-group .post-day {
-  flex-shrink: 0;
-  margin-left: 1em;
-  opacity: .6; }
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -3222,8 +3041,8 @@ html {
 
 body {
   color: #212121;
-  background-color: #F6F7EB;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "LXGW WenKai Screen", "苹方-繁", "微软雅黑", "宋体", "Helvetica Neue", Helvetica, "PingFang SC", SimSun, "Microsoft YaHei", "华文细黑", Heiti, "黑体", "游ゴシック", sans-serif;
+  background-color: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   line-height: 1.8em; }
@@ -3251,7 +3070,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "LXGW WenKai Screen", "苹方-繁", "微软雅黑", "宋体", "Helvetica Neue", Helvetica, "PingFang SC", SimSun, "Microsoft YaHei", "华文细黑", Heiti, "黑体", "游ゴシック", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-weight: 600;
   color: #000;
   margin: 4rem 0 2.5rem 0; }
@@ -3344,8 +3163,7 @@ pre {
   overflow-x: auto;
   margin: 2rem 0 2rem;
   padding: 1rem;
-  border-radius: 1rem;
-  background-color: #e0e0e0; }
+  border-radius: 1rem; }
   pre code {
     display: inline-block; }
 
@@ -3365,7 +3183,7 @@ blockquote {
 
 th,
 td {
-  padding: 1rem; }
+  padding: 1.6rem; }
 
 table {
   border-collapse: collapse; }
@@ -3373,6 +3191,20 @@ table {
 table td,
 table th {
   border: 2px solid #000; }
+
+table tr:first-child th {
+  border-top: 0; }
+
+table tr:last-child td {
+  border-bottom: 0; }
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0; }
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0; }
 
 img {
   max-width: 100%; }
@@ -3510,10 +3342,14 @@ figure {
       font-size: 1.8rem;
       flex: 2;
       color: #212121;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "LXGW WenKai Screen", "苹方-繁", "微软雅黑", "宋体", "Helvetica Neue", Helvetica, "PingFang SC", SimSun, "Microsoft YaHei", "华文细黑", Heiti, "黑体", "游ゴシック", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
         color: #1565c0; }
+
+@media only screen and (min-width: 768.1px) {
+  .list ul:not(.pagination) li {
+    display: flex; } }
 
 .centered {
   display: flex;
@@ -3576,7 +3412,7 @@ figure {
     font-weight: 700;
     margin: 0 -0.75rem;
     padding: 0.2rem 3.5rem;
-    border-bottom: 1px solid #F6F7EB; }
+    border-bottom: 1px solid #fafafa; }
     .notice .notice-title i {
       position: absolute;
       top: 50%;
@@ -3642,7 +3478,7 @@ figure {
   .navigation span {
     display: inline;
     font-size: 1.7rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "LXGW WenKai Screen", "苹方-繁", "微软雅黑", "宋体", "Helvetica Neue", Helvetica, "PingFang SC", SimSun, "Microsoft YaHei", "华文细黑", Heiti, "黑体", "游ゴシック", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
     font-weight: 600;
     color: #212121; }
   .navigation a:hover, .navigation a:focus {
@@ -3666,7 +3502,7 @@ figure {
         padding: 0;
         max-height: 0;
         width: 100%;
-        background-color: #F6F7EB;
+        background-color: #fafafa;
         border-top: solid 2px #e0e0e0;
         border-bottom: solid 2px #e0e0e0;
         transition: opacity 0.25s, max-height 0.15s linear; } }
@@ -3730,7 +3566,7 @@ figure {
 .pagination {
   margin-top: 6rem;
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "LXGW WenKai Screen", "苹方-繁", "微软雅黑", "宋体", "Helvetica Neue", Helvetica, "PingFang SC", SimSun, "Microsoft YaHei", "华文细黑", Heiti, "黑体", "游ゴシック", sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif; }
   .pagination li {
     display: inline;
     text-align: center;
@@ -3780,9 +3616,9 @@ figure {
     top: 1px;
     user-select: none; }
   .tabs input.tab-input:checked + label.tab-label {
-    background-color: #F6F7EB; }
+    background-color: #fafafa; }
   .tabs .tab-content {
-    background-color: #F6F7EB;
+    background-color: #fafafa;
     border-color: #ccc;
     border-style: solid;
     border-width: 1px;
