@@ -11,7 +11,7 @@ hasCJKLanguage = true
 [Menus]
   main = [
       {Name = "文章", URL = "/posts/", weight = 1},
-      {Name = "Python", URL = "/categories/python", weight = 2},
+      {Name = "Python", URL = "/categories/python/", weight = 2},
       {Name = "自闭", URL = "/zibi/", weight = 3},
       {Name = "日历", URL = "/calendar/", weight = 4},
       {Name = "关于", URL = "/about/", weight = 10},
@@ -19,8 +19,8 @@ hasCJKLanguage = true
 
 
 
-#[markup.goldmark.renderer]
-#unsafe = true
+[markup.goldmark.renderer]
+unsafe = true
 [markup.highlight]
 style = "doom-one"
 

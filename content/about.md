@@ -5,8 +5,6 @@ draft: false
 categories:
  - photography
 ---
-
-
 网络运维工程师 / 小程序开发 / 家庭网络设计 / 钉钉、企业微信低代码开发
 
 可开发票
@@ -17,7 +15,7 @@ categories:
 >
 > 💬微信：181\*\*\*\*9373
 >
-> 主页：[我的主页](https://mp.weixin.qq.com/s?__biz=MzU4ODIxMzA3MQ==&mid=2247483990&idx=1&sn=0ddb87d6c2643b7fbd88b11ec5baa319)
+> 主页：[我的主页](https://mp.weixin.qq.com/s?__biz=MzU4ODIxMzA3MQ==&mid=2247484005&idx=1&sn=1b84beafb88557c0eb382d8b14eeee31&chksm=fde17c45ca96f553a3013b21e636e1c3fa003c0c9b761977fee90aeabafebc250df181e1b143&token=1501603988&lang=zh_CN#rd)
 
 ### 专业技能
 
@@ -34,11 +32,11 @@ categories:
 
 本项目分为**招聘信息采集**和**微信公众号推送**两个分项，技术栈：Python，HTML，CSS
 
-##### 	1.1 招聘信息采集
+##### 1.1 招聘信息采集
 
 - **项目描述**：爬取本地招聘论坛的职位、薪资、公司名称、地址和联系电话
-
 - **工作内容**：编写爬虫程序，思考反爬策略，处理登陆，数据清洗，分表存储，维护代理ip池
+
   1. 分析目标网站真实request地址和response内容
   2. 使用Selenium+PhantomJS模拟登陆获取cookie信息，携带cookie访问网页内容，采用隧道动态ip代理和随机User-Agent反爬
   3. 使用for循环构建链接列表，通过asyncio异步爬取多个页面
@@ -46,7 +44,7 @@ categories:
   5. 通过正则、xpath等提取网页需要的内容
   6. 保存为字典，通过PyMongo保存到数据库
 
-##### 	1.2 **微信公众号推送**
+##### 1.2 **微信公众号推送**
 
 - **项目描述**：基于采集的招聘信息，构建公众号文章，通过API推送到微信公众号
 - **工作内容**：编写推送程序，构建HTML模版，获取access_token，调用API推送到公众号和企业微信机器人
