@@ -49,5 +49,6 @@
     </article>
 
     {{ partial "posts/math.html" . }}
+    <p> 最后更新于 {{ .Lastmod.Format "2006-01-02" }}</p>
   </section>
 {{ end }}

@@ -15,7 +15,7 @@ categories:
 >
 > 💬微信：181\*\*\*\*9373
 >
-> 主页：[我的主页](https://mp.weixin.qq.com/s?__biz=MzU4ODIxMzA3MQ==&mid=2247484005&idx=1&sn=1b84beafb88557c0eb382d8b14eeee31&chksm=fde17c45ca96f553a3013b21e636e1c3fa003c0c9b761977fee90aeabafebc250df181e1b143&token=1501603988&lang=zh_CN#rd)
+> 📰主页：[我的主页](https://mp.weixin.qq.com/s?__biz=MzU4ODIxMzA3MQ==&mid=2247484005&idx=1&sn=1b84beafb88557c0eb382d8b14eeee31)
 
 ### 专业技能
 

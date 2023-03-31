@@ -10,7 +10,7 @@
       {{ i18n "licensed_under" }} {{ .Site.Params.license | safeHTML }}
     ·
     {{ end }}
-    <p style="margin-top: 5px;font-size: smaller;">{{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="#">MoonLake</a>.</p>
+    <p style="margin-top: 5px;font-size: smaller;">由 <a href="https://gohugo.io/">HUGO </a>{{ i18n "powered_by" }} & {{ i18n "theme" }}<a href="#"> MoonLake</a></p>
     {{ if (and .Site.Params.commit .GitInfo) }}
       [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>]
     {{ end }}

@@ -18,89 +18,87 @@ categories:
 #### 创建应用
 
 1. 按顺序点击，进入创建应用界面
-    {{% polaroid
-        "/pictures/dingtalk/dingtalk01.png"
-    %}}
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk02.png"
-    "/pictures/dingtalk/dingtalk02.png"
-    "必填项：应用名称和应用描述。"
-    %}}
-	
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk03.png"
-    "/pictures/dingtalk/dingtalk03.png"
-    "显示已经创建成功的应用，其中AgentId、AppKey和AppSecret以后会用到，!!不能泄漏给别人!!"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk01.png)
+
+    必填项：应用名称和应用描述。
+
+    ![](/pictures/dingtalk/dingtalk02.png)
+
+    显示已经创建成功的应用，其中AgentId、AppKey和AppSecret以后会用到，**不能泄漏给别人**
+
+    ![](/pictures/dingtalk/dingtalk03.png)
 
 2. 点击左侧开发管理，然后点击右上角修改按钮，添加IP白名单。
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk04.png"
-    %}}
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk05.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk04.png)
+
+    ![](/pictures/dingtalk/dingtalk05.png)
+
 	其中 服务器出口IP按以下方法查询:
 
 	打开[ip138.com](https://ip138.com/),复制红框中的数字，粘贴到服务器出口IP框内。
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk06.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk06.png)
+
 	点击右上角保存
 
 3. 点击左侧权限管理，授权应用使用的范围
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk07.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk07.png)
+
 	按下面的名称搜索并开通权限
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk08.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk08.png)
+
 
 4. 点击左侧应用功能中的机器人与消息推送，创建机器人
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk09.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk09.png)
+
 	只需要填写机器人名称和机器人图标，然后点击发布按钮，然后确认发布。
 	
 	然后可以看到机器人配置下面有一个**复制RobotCode**的选项，点击可以复制RobotCode。
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk10.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk10.png)
+
 
 到此，应用和机器人创建完成
 
 #### 创建卡片模版
 
 1. 按图顺序打开创建卡片模版页面
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk11.png"
-    %}}
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk12.png"
-    %}}
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk13.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk11.png)
+
+
+    ![](/pictures/dingtalk/dingtalk12.png)
+
+
+    ![](/pictures/dingtalk/dingtalk13.png)
+
 
 2. 选择预设模版，点击使用并确认。
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk14.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk14.png)
+
 	然后我们就可以看到预览了
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk15.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk15.png)
+
 
 3. 查看数据结构
-	{{% polaroid
-    "/pictures/dingtalk/dingtalk16.png"
-    %}}
+
+    ![](/pictures/dingtalk/dingtalk16.png)
+
 	上面的pv,users,comments,likes都是可以修改值的参数。chart是图表数据，我们用不到，就不用管。
 
 **钉钉后台设置，到此结束。**
 
 ## Python代码
+
+<details>
+<summary>Python代码（点击展开）</summary>
 
 ``` python
 import requests
@@ -195,6 +193,7 @@ def send_card(userid,token):
 if __name__ == "__main__":
     main()
 ```
+</details>
 
-
+---
 
