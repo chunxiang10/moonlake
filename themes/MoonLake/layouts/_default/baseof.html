@@ -43,7 +43,8 @@
   {{ $script := resources.Get "js/coder.js" | minify | fingerprint }}
   <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
   {{ $lazysizes := resources.Get "js/lazysizes.min.js" | minify | fingerprint }}
-  <script src="{{ $lazysizes.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+  <script src="{{ $lazysizes.RelPermalink }}" integrity=""></script>
+  <!-- <script src="{{ $lazysizes.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script> -->
   {{ end }}
 
   {{ range .Site.Params.customJS }}

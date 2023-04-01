@@ -39,3 +39,7 @@ git rm --cached -r .
 git reset --hard
 ```
 这样就可以保证项目中所有的文件都使用LF换行了。
+
+
+UNIX/Linux 使用的是 0x0A（LF），早期的 Mac OS 使用的是 0x0D（CR），后来的 OS X 在更换内核后与 UNIX 保持一致。但 DOS/Windows 一直使用 0x0D0A（CRLF） 作为换行符。所以会出现使用mac的开发者修改的代码中是lf换行，windows用户使用的crlf换行符，同时存在两种系统提交的代码时，总是会互相影响。
+另外一个原因是，git默认配置autocrlf=true，即所有代码在添加提交时都会被提交成crlf，但是如果不同开发者配置的autocrlf不一致（比如，input或者false），就会出现总是互相覆盖的情况。
