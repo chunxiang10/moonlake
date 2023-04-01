@@ -1,10 +1,12 @@
 ---
-title: '解决 Hugo Failed to Find a Valid Digest in the 'Integrity' Attribute错误'
+title: 'Hugo "Integrity" 错误'
 date: '2023-04-01T20:55:40+0800'
-draft: true
+draft: false
 tags: []
 categories: []
 ---
+
+# 解决 Hugo Failed to Find a Valid Digest in the 'Integrity' Attribute错误
 
 将hugo部署到CloudFlare的Pages服务器上，在本地打开时
 

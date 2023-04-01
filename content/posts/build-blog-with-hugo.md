@@ -1,5 +1,5 @@
 ---
-title: '如何用hugo搭建博客'
+title: '如何用HUGO搭建博客'
 date: '2023-03-17T15:41:31+0800'
 tags: ['blog']
 categories: []
