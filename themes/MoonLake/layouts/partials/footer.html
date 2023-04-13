@@ -1,4 +1,30 @@
 <footer class="footer">
+  {{ if .Site.IsServer }}
+  {{ $jquery := resources.Get "js/jquery.min.js" }}
+  <script src="{{ $jquery.RelPermalink }}"></script>
+  {{ $fancybox := resources.Get "js/jquery.fancybox.min.js" }}
+  <script src="{{ $fancybox.RelPermalink }}"></script>
+  {{ $fancyboxcss := resources.Get "scss/css/jquery.fancybox.min.css" }}
+  <link rel="stylesheet" href="{{ $fancyboxcss.RelPermalink }}" />
+  <script>
+    $('[data-fancybox="gallery"]').fancybox({
+      wheel: false,
+    });
+  </script>
+  {{ else }}
+  {{ $jquery := resources.Get "js/jquery.min.js" | minify | fingerprint }}
+  <script src="{{ $jquery.RelPermalink }}" integrity="{{ $jquery.Data.Integrity }}"></script>
+  {{ $fancybox := resources.Get "js/jquery.fancybox.min.js" | minify | fingerprint }}
+  <script src="{{ $fancybox.RelPermalink }}" integrity="{{ $fancybox.Data.Integrity }}"></script>
+  {{ $fancyboxcss := resources.Get "scss/css/jquery.fancybox.min.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $fancyboxcss.RelPermalink }}" />
+  <script>
+    $('[data-fancybox="gallery"]').fancybox({
+      wheel: false
+    });
+  </script>
+  {{ end }}
+
   <section class="container">
     ©
     {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}
