@@ -6,6 +6,30 @@ tags: ["hugo"]
 
 主题的富文本显示方式
 
+支持mermaid
+
+{{<mermaid>}}
+flowchart LR
+
+    A --> B
+
+    B --> C
+
+    C --> D 
+
+    D --> B
+{{</mermaid>}}
+
+```bash
+\{\{<mermaid>\}\}
+flowchart LR
+    A --> B
+    B --> C
+    C --> D 
+    D --> B
+\{\{</mermaid>\}\}
+```
+
 {{< notice note >}}
 这里是一个注释
 {{< /notice >}}
