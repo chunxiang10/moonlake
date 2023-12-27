@@ -1,11 +1,9 @@
 ---
-title: 'python代码规范'
-date: '2023-12-27T0849:33+0800'
+title: 'wordpress使用sqlite数据库'
+date: '2023-12-27T08:49:33+0800'
 tags: []
 categories: []
 ---
-
-# wordpress with sqlite3
 
 1. 将目录下的wp-config-sample.php复制粘贴一份重命名为wp-config.php
 2. 打开wp-config.php修改以下配置
