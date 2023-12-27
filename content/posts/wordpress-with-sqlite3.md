@@ -1,3 +1,10 @@
+---
+title: 'python代码规范'
+date: '2023-12-27T0849:33+0800'
+tags: []
+categories: []
+---
+
 # wordpress with sqlite3
 
 1. 将目录下的wp-config-sample.php复制粘贴一份重命名为wp-config.php
@@ -19,5 +26,7 @@
    //define('WP_ALLOW_REPAIR', true);//数据库修复时使用
    define('DB_TYPE', 'sqlite');    //mysql or sqlite`
    ```
-3. 将 `db.php`复制到到wordpress安装目录下的wp-content目录中
+3. 将 
+`db.php`
+复制到到wordpress安装目录下的wp-content目录中
 4. 访问博客地址
