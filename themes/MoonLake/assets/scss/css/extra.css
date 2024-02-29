@@ -39,6 +39,20 @@ p {
   font-weight: var(--font-weight);
   font-size: var(--font-size);
 }
+
+.wehide {
+  display: none;
+  width: 370px;
+  height: 230px;
+}
+.wechart {
+  color: green;
+}
+.wechart:hover + .wehide {
+  display: block;
+  color:green;
+  
+}
 /* Code */
 /* pre,
 code,

@@ -10,11 +10,11 @@ categories:
 
 > 👨‍💼 姓名：Jack | 36
 >
-> 💬微信：181\*\*\*\*9373
->
-> 📰主页：[我的公众号主页](https://mp.weixin.qq.com/s?__biz=MzU4ODIxMzA3MQ==&mid=2247484005&idx=1&sn=1b84beafb88557c0eb382d8b14eeee31)
+> 💬微信：<span class="wechart">181\*\*\*\*9373</span>
+> <image class="wehide" src="/wechart.jpg"></image>
 > 
 > 👔职位：网络运维工程师 / 小程序开发 / 网络设计 / 低代码开发
+
 
 ### 教育经历
 - 大专 | 物流管理  
