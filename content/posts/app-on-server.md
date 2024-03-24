@@ -16,7 +16,6 @@ categories: []
   - Home Assistant	# 智能家居管理
   - Lomorage	# 手机照片备份
   - Huginn	# 自建RSS源
-  - Fireflyiii	# 个人财务记账管理(未使用)
   - DDNS-go     # ddns
 - Docsify	# 个人文档
 - Markdown Nice	# markdown转微信公众号
