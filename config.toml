@@ -4,7 +4,6 @@ defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = true
 theme = ["MoonLake"]
 title = "凉风有信 秋月无边"
-# pagetitle = "凉风有信"
 hasCJKLanguage = true
 
 [frontmatter]
@@ -12,13 +11,10 @@ hasCJKLanguage = true
 
 [Menus]
   main = [
-      {Name = "文章", URL = "/posts/", weight = 1},
-      {Name = "Python", URL = "/categories/python/", weight = 2},
-      # {Name = "自闭", URL = "/zibi/", weight = 3},
-      {Name = "日历", URL = "/calendar/", weight = 4},
-      {Name = "关于", URL = "/about/", weight = 10},
+	{Name = "文章", URL = "/posts/", weight = "1"},
+	{Name = "分类", URL = "/categories", weight = "2"},
+	{Name = "关于", URL = "/about/", weight = "9"},
   ]
-
 
 
 [markup.goldmark.renderer]
@@ -27,13 +23,13 @@ unsafe = true
 style = "doom-one"
 
 [params]
-author = "Jack Hu"
+author = "大悦帮帮忙"
 info = "月落乌啼霜满天 江枫渔火对愁眠"
 description = "by Jack Hu"
 pagetitle = "凉风有信"
 avatarurl = "avatar.jpg"
 hideColorSchemeToggle=true
-copyright = "Jack Hu"
+copyright = "大悦帮帮忙"
 since = 2022
 paginate = 20
 

@@ -1,8 +1,8 @@
 ---
 title: "建发费用计算"
 date: 2024-03-12T10:02:03+08:00
-draft: false
-categories: solar
+tags: []
+categories: ['光伏']
 ---
 
 ### 增项费用
