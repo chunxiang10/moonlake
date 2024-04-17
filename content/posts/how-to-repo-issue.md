@@ -1,5 +1,5 @@
 ---
-title: 'how-to-repo-issue'
+title: '如何提交Issue'
 date: '2024-03-28T13:52:49+0800'
 draft: false
 categories: []
