@@ -65,5 +65,10 @@ tags: []
 
 [官网](https://aisuda.bce.baidu.com/amis/)
 
+### Lan Mouse 局域网共享鼠标
 
+[github](https://github.com/feschber/lan-mouse)
 
+### moments 极简朋友圈
+
+[github](https://github.com/kingwrcy/moments)
