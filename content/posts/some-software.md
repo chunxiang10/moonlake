@@ -72,3 +72,6 @@ tags: []
 ### moments 极简朋友圈
 
 [github](https://github.com/kingwrcy/moments)
+
+### synctv 大家一起看
+[github](https://github.com/synctv-org/synctv)
