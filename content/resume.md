@@ -2,6 +2,7 @@
 title: "我的简历"
 date: 2024-05-12T19:22:39+08:00
 password: 1819373
+layout: "resume"
 ---
 
 # 个人简历
