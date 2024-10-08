@@ -6,7 +6,7 @@ categories: []
 ---
 
 
-```bash
+```powershell
 # 进入特权模式
 switch>en
 # 输入密码
