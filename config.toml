@@ -18,10 +18,11 @@ hasCJKLanguage = true
 
 
 [markup.goldmark.renderer]
-unsafe = true
+  unsafe = true
 [markup.highlight]
-style = "doom-one"
-
+  style = "doom-one"
+[author]
+  name = "从心所欲不逾矩"
 [params]
 author = "大悦帮帮忙"
 info = "月落乌啼霜满天 江枫渔火对愁眠"
@@ -59,3 +60,13 @@ name = "Email"
 icon = "fa fa-envelope fa-2x"
 weight = 3
 url = "mailto:530048576@qq.com"
+[[params.social]]
+name = "RSS"
+icon = "fa fa-rss-square fa-2x"
+weight = 4
+url = "/posts/index.xml"
+[outputs]
+home = ['html']
+section = ['html']
+taxonomy = ['html']
+term = ['html']
