@@ -2,7 +2,7 @@
 date: 2024-08-22T09:01:23+08:00
 title: "处暑"
 tags: []
-categories: []
+categories: ["随笔"]
 ---
 
 

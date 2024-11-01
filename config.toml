@@ -3,7 +3,7 @@ languageCode = "en-us"
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = true
 theme = ["MoonLake"]
-title = "凉风有信 秋月无边"
+title = "凉风有信"
 hasCJKLanguage = true
 
 [frontmatter]
@@ -16,13 +16,6 @@ hasCJKLanguage = true
 	{Name = "关于", URL = "/about/", weight = "9"},
   ]
 
-
-[markup.goldmark.renderer]
-  unsafe = true
-[markup.highlight]
-  style = "doom-one"
-[author]
-  name = "从心所欲不逾矩"
 [params]
 author = "大悦帮帮忙"
 info = "月落乌啼霜满天 江枫渔火对愁眠"

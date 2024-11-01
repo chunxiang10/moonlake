@@ -1,8 +1,8 @@
 ---
-title: 'linux服务器分区扩容'
+title: 'Linux服务器分区扩容'
 date: '2024-03-27T11:02:06+0800'
 categories: []
-tags: []
+tags: ["Linux"]
 ---
 
 {{< notice warning >}}

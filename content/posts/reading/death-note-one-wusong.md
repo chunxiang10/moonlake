@@ -3,7 +3,7 @@ title: '《死人经》相关一 · 武松'
 params:
   author: '冰临神下'
 date: '2024-03-19T23:16:00+0800'
-categories: ['读书']
+categories: ['书摘']
 tags: []
 ---
 {{< notice note >}}

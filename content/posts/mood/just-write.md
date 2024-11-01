@@ -1,10 +1,8 @@
 --- 
 date: 2024-03-18T00:31:49+08:00
 title: "只需要写就行了"
-
-authors: []
 tags: []
-categories: ["心情"]
+categories: ["随笔"]
 
 ---
 
